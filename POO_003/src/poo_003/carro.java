@@ -28,7 +28,7 @@ public class carro {
     public String getCurso() {
         return modelo;
         return quantidade;}
-    public void setCurso(String quantidade,String modelo) {
+    public void setCurso(int quantidade,String modelo) {
         this.modelo = modelo;
         this.quantidade = quantidade}}
         public String getmodelo(){
@@ -36,10 +36,10 @@ public class carro {
         }
          public void setmodelo(String modelo){
             this.modelo = modelo;
-        }  public String getquantidade(){
+        }  public int getquantidade(){
             return quantidade;
         }
-         public void setquantidade(String quantidade){
+         public void setquantidade(int quantidade){
             this.quantidade = quantidade;
         }
         
